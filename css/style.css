@@ -1,0 +1,2391 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+
+a{
+	color: #000;
+
+}	
+body{
+	font-family: "Causten";
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1280px
+	
+}
+p{
+	font-family: "Causten semi",arial;
+}
+
+  @font-face {
+	font-family: "Causten";
+	src: url("../fonts/causten/Causten-SemiBold.woff") format("woff"),
+	  url("../fonts/causten/Causten-SemiBold.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+  }
+  @font-face {
+	font-family: "Causten";
+	src: url("../fonts/causten/Causten-Bold.woff2") format("woff2"),
+	  url("../fonts/causten/Causten-Bold.woff2") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+  }
+ /* header section */
+ #home header{
+	height: 100px;
+	width: 100%;
+	padding: 0 100px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+	justify-content: space-between;
+	/* padding: 0 100px; */
+ }
+ #home header h1 img{
+	height: 45px;
+	width: 100px;
+ }
+ #home header  .left {
+	display: flex;
+	margin-left: 10%;
+ }
+ #home header  .left li{
+	margin-left: 25px;
+ }
+
+#home header .left li:first-child a{
+	font-weight: bold;
+	color: #222;
+}
+#home header .left li a{
+	color: #807D7E;
+	font-size: 22px;
+	/* opacity: 1px; */
+}
+#home header .left li a:hover{
+	color: #222;
+	font-weight: bold;
+	border-bottom: 1px solid #3C4242;
+}
+
+#home header .center{
+	display: flex;
+	background:#F6F6F6;
+	width: 267px;
+	height: 44px;
+	padding-left: 25px;
+	border-radius: 5px;
+
+}
+#home header .center img{
+	width: 20px;
+}
+#home header .center input{
+	width: 70px;
+	padding-left: 12px;
+	font-size: 16px;
+	color: #807D7E;
+	background: transparent;
+
+}
+#home header .right{
+	display: flex;
+	
+}
+#home header .right li {
+	width: 44px;
+	height: 44px;
+	background: #F6F6F6;
+	border-radius: 5px;
+	padding-left:8px ;
+	padding-top: 8px; ;
+
+	
+}
+#home header .right li span{
+}
+#home header .right li:first-child span a img{
+	margin: 6px 
+}
+#home header .right li span a img{
+	margin: 5px ;
+}
+#home header .right li:nth-child(2){
+	margin: 0 10px;
+}
+#home header .icons{
+	position: absolute;
+	top: 26px;
+	left: 10px;
+	display: none;
+}
+#home header .icons .details{
+	position: relative;
+}
+#home header .icons .details #hover{
+	z-index: 2;
+}
+#home header .icons .details #hover h1 img:hover ul{
+	display: block;
+}
+#home header .icons .details ul{
+	position: absolute;
+	top:-10px;
+	left: 0;
+	width: 250px;
+	height: 100vh;
+	background: #fff;
+	display: none;	
+}
+#home header .icons .details #hover ul li{
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	height: 45px;	
+}
+#home header .icons .details #hover ul li span a{
+	width: 40px;
+	height: 20px;
+	background: #F6F6F6;
+	border-radius: 5px;
+	padding: 10px;
+}
+#home header .icons .details #hover ul li a:hover{
+	color: #222;
+	font-weight: bold;
+	border-bottom: 1px solid #3C4242;
+}
+#home header .icons .details #hover ul li:nth-child(2) a{
+	color: #222;
+	font-weight: bold;
+	border-bottom: 1px solid #3C4242;
+}
+#home header .icons .details #hover ul li a{
+	color: #807d7e;
+
+}
+#home header .icons .details #hover:hover ul{
+	display: block;
+}
+#home header .icons .details #hover h1 img{
+	width: 30px;
+	height: 30px;
+}
+
+#home .spotlight{
+	width: 100%;
+	height: calc(100vh - 100px);
+	background: url(../images/shop.jpg) no-repeat;
+	background-position: right top -143px;
+	background-size: cover;
+	position: relative;
+
+}
+#home .spotlight .container{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+
+}
+#home .spotlight .container h2 {
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+#home .spotlight .container h1{
+	font-size: 96px;
+	color: #fff;
+	font-weight: bold;
+	
+}
+#home .spotlight .container p{
+	font-size: 30px;
+	color: #fff;
+	padding: 10px 0;	
+	
+}
+#home .spotlight .container button{
+	background: #fff;
+	padding: 17px 70px;
+	border-radius: 5px;
+}
+#home .spotlight .container button a{
+	font-size: 20px;
+	font-weight: bold;
+}
+#home .spotlight :hover  .h2{
+	
+}
+#home .spotlight  .arrows{
+	
+}
+#home .spotlight  .arrows .white_arrow_left{
+	position: absolute;
+	top: 40%;
+	left: 5%;
+}
+#home .spotlight  .arrows .white_arrow_right{
+	position: absolute;
+	top: 40%;
+	left: 90%;
+}
+#home .spotlight .under{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	
+	
+}
+
+
+/* spotlight */
+
+
+/* discont section */
+#discounts .wrapper .discount{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 25px;
+	
+}
+#discounts .wrapper .discount .left{
+	width: 49.5%;
+	height: 400px;
+margin-right: 1%;
+	background: url(../images/bg-2.jpg) no-repeat;
+	background-size: 633.59px 400px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+#discounts .wrapper .discount .right{
+	width: 49.5%;
+	height: 400px;
+	background: url(../images/bg-3.jpg) no-repeat;
+	background-size: 633.59px 400px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+#discounts .wrapper .discount .right h6{
+	margin: 75px 0 0 40px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+}
+#discounts .wrapper .discount .right h1{
+	margin: 30px 0 0 40px;
+	font-size: 34px;
+	color: #fff;
+	font-weight: bold;
+}
+#discounts .wrapper .discount .right p{
+	margin: 10px 0 40px 40px;
+	color: #fff;
+	font-size: 16px;
+}
+#discounts .wrapper .discount .right a{
+	margin-left: 40px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	border-bottom:1px solid  #fff;
+}
+#discounts .wrapper .discount .left h6{
+	margin: 75px 0 0 40px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+}
+#discounts .wrapper .discount .left h1{
+	margin: 30px 0 0 40px;
+	font-size: 34px;
+	color: #fff;
+	font-weight: bold;
+}
+#discounts .wrapper .discount .left p{
+	margin: 10px 0 40px 40px;
+	color: #fff;
+	font-size: 16px;
+}
+#discounts .wrapper .discount .left a{
+	margin-left: 40px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	border-bottom:1px solid  #fff;
+}
+
+
+/* arrial */
+#arrial .wrapper .items{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-bottom: 50px;
+}
+/* spna */
+#arrial .wrapper span{
+	display: flex;
+	margin: 30px 0px;
+	align-items: center;
+}
+#arrial .wrapper span h1{
+	font-size: 37px;
+}
+#arrial .wrapper span img{
+	height: 38px;
+	width: 6px;
+	margin: 0 20px 0 0;
+	font-weight: bold;
+}
+#arrial .wrapper .items .one{
+	width: 2%;
+}
+#arrial .wrapper .items .one a .left_arrow{
+	width: 100%;
+	margin-top: 131px;
+
+}
+#arrial .wrapper .items .six{
+	width: 2%;
+}
+#arrial .wrapper .items .six a .right_arrow{
+	width: 100%;
+	margin-top: 131px;
+
+}
+
+#arrial .wrapper .items .two{
+	width: 21%;
+	margin-left: 2.4%;
+}
+#arrial .wrapper .items .two .img2{
+	width: 100%;
+	
+}
+#arrial .wrapper .items .three{
+	width: 21%;
+	margin-left: 2.4%;
+}
+#arrial .wrapper .items .three .img3{
+	width: 100%;
+}
+#arrial .wrapper .items .four{
+	margin-left: 2.4%;
+	width: 21%;
+}
+#arrial .wrapper .items .four .img4{
+	width: 100%;
+}
+#arrial .wrapper .items .five{
+	width: 21%;
+	margin-left: 2.4%;
+	margin-right: 2.4%;
+
+}
+#arrial .wrapper .items .five .img5{
+	margin-left: 2.4%;
+	width: 100%;
+}
+/* poster */
+#poster .wrapper .main{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#poster .wrapper .main .left{	
+	width: 50%;
+	position: relative;
+	
+}
+#poster .wrapper .main .left img{
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+}
+#poster .wrapper .main .right{
+	width: 50%;
+}
+#poster .wrapper .main .right img{
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+}
+#poster .wrapper .main .left .one{
+ position: absolute;
+ top: 100px;
+ color: aliceblue;
+ left: 70px;
+ font-size: 30px;
+}
+#poster .wrapper .main .left .two{
+	position: absolute;
+	top: 150px;
+	left: 70px;
+	color: #fff;
+	font-size: 30px;
+}
+#poster .wrapper .main .left p{
+	position: absolute;
+	top: 200px;
+	left: 70px;
+	color: #fff;
+	width: 500px;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	font-family: "Causten semi",arial;
+
+}
+#poster .wrapper .main .left button{
+	position: absolute;
+	top: 310px;
+	left: 70px;
+	background: white;
+	padding: 7px 30px;
+	border-radius: 7px;
+	
+}
+
+/* mens category */
+
+#mens_category .wrapper div .title{
+	display: flex;
+	margin: 30px 0px;
+	align-items: center;
+}
+
+#mens_category .wrapper div .title h1{
+font-size: 34px;
+color: #3C4242;
+}
+#mens_category .wrapper div .title img{
+	height: 30px;
+	width: 6px;
+	margin: 0 20px 0 0;
+}
+#mens_category .wrapper div ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#mens_category .wrapper div ul li {
+	width: 23%;
+	padding-bottom: 30px;
+}
+#mens_category .wrapper div ul li .mens_img {
+    width: 100%;
+    display: block;
+}
+#mens_category .wrapper div ul li .mens_img7{
+	
+	
+}
+#mens_category .wrapper div ul li:nth-child(2){
+	margin-left:3% ;
+}
+#mens_category .wrapper div ul li:nth-child(3){
+	margin-left:2% ;
+}
+#mens_category .wrapper div ul li:nth-child(4){
+	margin-left: 3%;
+	
+}
+#mens_category .wrapper div ul li:nth-child(6){
+	margin-left:3% ;
+}
+#mens_category .wrapper div ul li:nth-child(7){
+	margin-left: 2%;
+}
+#mens_category .wrapper div ul li:nth-child(8){
+	margin-left: 3%;
+}
+/* #mens_category .wrapper div ul li span */
+#mens_category .wrapper div ul li span{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+#mens_category .wrapper div ul li .explore{
+	color: #7F7F7F;
+	font-size: 14px;
+}
+#mens_category .wrapper div ul li span a img{
+	margin-top: 10px;
+}
+#mens_category .wrapper div ul li span h3{
+	color: #2A2F2F;
+	font-size: 17px;
+	line-height: 27.93px;
+}
+/* womens section */
+#womens_catogary .wrapper .title{
+	display: flex;
+	padding: 30px 0px;
+	align-items: center;
+}
+#womens_catogary  .wrapper  .title h2{
+	font-size: 37px;
+	color: #3C4242;
+	line-height: 33.5px;
+	}
+#womens_catogary .wrapper  .title img{
+		height: 30px;
+		width: 6px;
+		margin: 0 20px 0 0;
+}
+#womens_catogary .wrapper div ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#womens_catogary .wrapper div ul li {
+	width: 23%;
+	
+}
+#womens_catogary .wrapper div ul li .w_img{
+	width: 100%;
+
+}
+#womens_catogary .wrapper div ul li:nth-child(2){
+	margin-left: 3%;
+}
+#womens_catogary .wrapper div ul li:nth-child(3){
+	margin-left: 2%;
+}
+#womens_catogary .wrapper div ul li:nth-child(4){
+	margin-left: 3%;
+}
+#womens_catogary .wrapper div ul li span{
+	display: flex;
+	margin-bottom: 1px;
+	justify-content: space-between;
+	padding: 0 5px;
+}
+
+#womens_catogary .wrapper div ul li span img{
+	margin-top: 10px;
+}
+#womens_catogary .wrapper div ul li span h3{
+	color: #191919;
+	font-size: 17px;
+	line-height: 27.93px;
+	font-weight: 500;
+}
+#womens_catogary .wrapper div ul li  .exploring{
+	padding-left: 5px;
+	color: #7F7F7F;
+	font-size: 14px;
+}
+
+/* brands */
+#top_brands .wrapper .main{
+	width: 100%;
+	height: 400px;
+	margin: 30px 0px;
+	background: #000;
+	border-radius: 17px;
+
+}
+#top_brands .wrapper .main h1{
+	font-size: 55px;
+	color: #fff;
+padding: 50px 0px 0px 430px;
+}
+#top_brands .wrapper .main .sentance{
+	display: flex;
+	padding: 10px 0px 0px 500px;
+	
+}
+#top_brands .wrapper .main .sentance .p{
+	color: #FBD103;
+	padding: 0 4px;
+}
+#top_brands .wrapper .main .sentance p{
+	color: white;
+	font-size: 21px;
+	
+}
+#top_brands .wrapper .main .contain ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 75px;
+	margin-top: 100px;
+}
+#top_brands .wrapper .main .contain ul li{
+	width: 16%;
+	height: 100px;
+	background: #fff;
+	border-radius: 13px;
+}
+/* #top_brands .wrapper .main .contain ul li:nth-child */
+#top_brands .wrapper .main .contain ul li:nth-child(2){
+	margin-left: 30px;
+}
+#top_brands .wrapper .main .contain ul li:nth-child(3){
+	margin-left: 30px;
+}
+#top_brands .wrapper .main .contain ul li:nth-child(4){
+	margin-left: 30px;
+}
+#top_brands .wrapper .main .contain ul li:last-child{
+	margin-left: 30px;
+}
+/* #top_brands .wrapper .main .contain ul li images */
+#top_brands .wrapper .main .contain ul li img{
+	margin: 20px 0px 0px 20px;
+}
+/* limlight section */
+#limlight .wrapper .title{
+	display: flex;
+	padding: 30px 0 ;
+}
+#limlight .wrapper .title img{
+	height: 30px;
+	width: 6px;
+	margin: 0 20px 0 0;
+}
+#limlight .wrapper .title h2{
+	font-size: 34px;
+	color: #3C4242;
+	font-weight: 600;
+}
+#limlight .wrapper ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	position: relative;
+}
+#limlight .wrapper ul li{
+	width: 23%;
+	
+}
+
+/* nth childs */
+#limlight .wrapper ul li:nth-child(2){
+	margin-left: 3%;
+}
+#limlight .wrapper ul li:nth-child(3){
+	margin-left: 2%;
+}
+#limlight .wrapper ul li:last-child{
+	margin-left:3%;
+}
+/* images */
+#limlight .wrapper ul li .lim_img .img{
+	width: 100%;
+	
+}
+#limlight .wrapper ul li .lim_img{
+	position: relative;
+}
+#limlight .wrapper ul li .lim_img .icon{
+	width: 30px;
+	height: 20px;
+	background:#fff;
+	border-radius: 50%;
+	padding: 13px;
+	position: absolute;
+	top: 10px;
+	left: 80%;
+
+}
+#limlight .wrapper ul li .lim_img .icon img{
+	position: absolute;
+	top: 1px;
+	left: 4px;
+	margin-top: 6px;
+	margin-left: 3px;
+}
+#limlight .wrapper ul li .arrow_down{
+	display: flex;
+	justify-content: space-between;
+	margin: 6px 0 0 0;
+	
+}
+#limlight .wrapper ul li .arrow_down h3{
+	color: #3C4242;
+	font-weight: 600;
+	padding-top: 10px;
+	line-height: 19.2px;
+}
+#limlight .wrapper ul li .arrow_down a{
+	color: #3C4242;
+	background: #F6F6F6;
+	padding: 7px;
+	border-radius: 8px;
+	line-height: 16.8px;
+}
+#limlight .wrapper ul li .exploring{
+      color: #807D7E;
+	  font-size: 14px;
+	
+}
+
+/* feedback section */
+/* .title */
+#review .wrapper .title{
+	display: flex;
+	padding: 50px 0px 30px 0px;
+}
+#review .wrapper .title img{
+	height: 30px;
+	width: 6px;
+	margin: 0 20px 0 0;
+}
+#review .wrapper .title h2{
+	font-size: 34px;
+	color: #3C4242;
+	font-weight:600 ;
+}
+
+#review .wrapper .main{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 30px;
+}
+#review .wrapper .main .left{
+	width: 32%;
+    height: 300px;
+	border: 3px solid #BEBCBD;
+	border-radius: 9px;
+}
+/* #review .wrapper .main .left span */
+#review .wrapper .main .left span{
+	display: flex;
+	justify-content: space-between;
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#review .wrapper .main .left h1{
+	font-size: 24px;
+	margin: 10px 0 10px 15px;
+	color: #3C4242;
+}
+#review .wrapper .main .left p{
+	font-size: 15px;
+	width: 98%;
+	margin: 0 auto;
+	color: #807D7E;
+
+}
+/* main .center */
+#review .wrapper .main .center{
+	width: 32%;
+	height: 300px;
+	margin-left: 2%;
+	border: 3px solid #BEBCBD;
+	border-radius: 9px;
+}
+#review .wrapper .main .center span{
+	display: flex;
+	justify-content: space-between;
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#review .wrapper .main .center h1{
+	font-size: 24px;
+	margin: 10px 0 10px 2px;
+	color: #3C4242;
+}
+#review .wrapper .main .center p{
+	font-size: 15px;
+	width: 98%;
+	margin: 0 auto;
+	color: #807D7E;
+}
+
+/* .right */
+#review .wrapper .main .right{
+	width: 32%;
+	height: 300px;
+	margin-left: 2%;
+	border: 3px solid #BEBCBD;
+	border-radius: 9px;
+}
+#review .wrapper .main .right span{
+	display: flex;
+	justify-content: space-between;
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#review .wrapper .main .right h1{
+	font-size: 24px;
+	margin: 10px 0 10px 15px;
+	color: #3C4242;
+}
+#review .wrapper .main .right p{
+	font-size: 15px;
+	width: 98%;
+	margin: 0 auto;
+	color: #807D7E;
+}
+/* dots */
+#review .wrapper .dots{
+	margin-left: 50%;
+	margin-top: 10px;
+	
+}
+#review .wrapper .dots span img{
+	width: 20px;
+}
+#footer {
+	width: 100%;
+	background:#3C4242;
+	margin-top: 35px;
+}
+/* footer section */
+#footer .container{
+	width: 85%;
+	margin: 0 auto;
+}
+#footer .container .informations{
+	width: 70%;
+	max-width: 1280px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+#footer .container .informations ul li{
+	padding-bottom: 17px;
+}
+/* res */
+/* #footer .container .informations ul{
+	width: 25%;
+} */
+
+#footer .container .informations ul li a{
+	color: #F6F6F6;
+	font-size: 18px;
+}
+#footer .container .informations ul li a h1{
+	font-size: 33px;
+}
+#footer .container .informations ul li:first-child{
+	padding: 40px 0 40px 0;
+	
+}
+#footer .container .middle .left a .icon-facebook{
+
+    font-size: 30px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 30%;
+    margin-left: 5px;
+}
+/* hovor */
+#footer .container .middle .left a .icon-facebook:hover{
+	background:blue;
+	color: #fff;
+}
+#footer .container .middle .left a .icon-instagram{
+    font-size: 30px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 30%;
+    margin-left: 5px;
+}
+#footer .container .middle .left a .icon-instagram:hover{
+	background:#e4405f;
+	color: #ffffff;
+}
+
+#footer .container .middle .left a .icon-twitter{
+
+    font-size: 30px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 30%;
+    margin-left: 5px;
+}
+#footer .container .middle .left a .icon-twitter:hover{
+	background:#ffffff;
+	color: skyblue;
+}
+#footer .container .middle .left a .icon-linkedin{
+
+    font-size: 30px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 30%;
+    margin-left: 5px;
+}
+#footer .container .middle .left a .icon-linkedin:hover{
+	background:blue;
+	color: #fff;
+}
+
+#footer .container .middle{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	max-width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0 100px 0 0;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+/* #footer .container .middle .left */
+#footer .container .middle .right{
+	margin-bottom: 130px;
+	
+}
+#footer .container .middle .right h1{
+	color: #F6F6F6;
+	margin: 50px  0px;
+	font-size: 30px;
+}
+/* horizontal line */
+#footer .container .hline{
+	
+	border-bottom: 1px solid #ffffff;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1280px;
+	padding: 20px 0px;
+}
+#footer .container .pc{
+	width: 70%;
+	max-width: 1280px;
+	margin: 0 auto;
+	height: 60px;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+#footer .container .pc h1{
+	color: #F6F6F6;
+}
+#footer .container .hline2{
+	
+	border-bottom: 1px solid #ffffff;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+#footer .container .last{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 0 50px 0;
+	color: #F6F6F6;
+}
+@media all and (max-width:1280px){
+	#home .spotlight {
+		width: 100%;
+		height: calc(100vh - 100px);
+		background: url(../images/shop.jpg) no-repeat;
+		background-position: right top 0px;
+		background-size: cover;
+		position: relative;
+	}
+	
+	#review .wrapper .dots span img {
+		width: 15px;
+	}
+	#home .spotlight .container h1 {
+        font-size: 73px;
+        color: #fff;
+        font-weight: bold;
+    }
+	#review .wrapper .main .right {
+        width: 32%;
+        height: 362px;
+        margin-left: 2%;
+        border: 3px solid #BEBCBD;
+        border-radius: 9px;
+    }
+	#review .wrapper .main .center {
+		width: 32%;
+		height: 362px;
+		margin-left: 2%;
+		border: 3px solid #BEBCBD;
+		border-radius: 9px;
+	}
+	#home .spotlight .container {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+    }
+	#home .spotlight .container button {
+		background: #fff;
+		padding: 14px 57px;
+		border-radius: 5px;
+	}
+	#home .spotlight .container h2 {
+		font-size: 26px;
+		color: #fff;
+		padding-bottom: 7px;
+	}
+	#home .spotlight .container p {
+        font-size: 26px;
+        color: #fff;
+        padding: 8px 0;
+    }
+	#top_brands .wrapper .main .contain ul li img {
+		margin: 20px 0px 0px 0px;
+		width: 80%;
+        margin: 0 auto;
+		padding-top: 15%;
+		padding-left: 10%;
+	}
+	#top_brands .wrapper .main h1 {
+		font-size: 55px;
+		color: #fff;
+		padding: 50px 0px 0px 314px;
+	}
+	#top_brands .wrapper .main .sentance {
+		display: flex;
+		padding: 10px 0px 0px 396px;
+	}
+	#review .wrapper .main .left {
+		width: 32%;
+		height: 362px;
+		border: 3px solid #BEBCBD;
+		border-radius: 9px;
+	}
+	#top_brands .wrapper .main .contain ul li {
+		width: 16%;
+		height: 100px;
+		background: #fff;
+		border-radius: 13px;
+	}
+	#home header {
+		height: 100px;
+		width: 100%;
+		padding: 0 39px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		z-index: 1;
+		justify-content: space-between;
+	}
+	#home header .left {
+		display: flex;
+		margin-left: 3%;
+	}
+	#home header .center {
+		display: flex;
+		background: #F6F6F6;
+		width: 195px;
+		height: 44px;
+		padding-left: 25px;
+		border-radius: 5px;
+	}
+	#footer .container .middle {
+		display: flex;
+		flex-wrap: wrap;
+		width: 70%;
+		max-width: 1280px;
+		height: 200px;
+		margin: 0 auto;
+		padding: 0 10px 0 0;
+		align-items: center;
+		justify-content: space-between;
+	}	
+}
+@media all and (max-width:1080px){
+	
+	#home .spotlight {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background: url(../images/shop.jpg) no-repeat;
+        background-position: top 0px;
+        background-size: cover;
+        position: relative;
+    }
+	#home .spotlight .container {
+        position: absolute;
+        top: 6%;
+        left: 15%;
+    }
+	#footer .container .middle {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        max-width: 1280px;
+        height: 200px;
+        margin: 0 auto;
+        padding: 0px 11px 0 0;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+	#poster .wrapper .main .right {
+		width: 37%;
+	}
+	#poster .wrapper .main .left {
+		width: 63%;
+		position: relative;
+	}
+	#poster .wrapper .main .left .two {
+		position: absolute;
+		top: 119px;
+		left: 70px;
+		color: #fff;
+		font-size: 30px;
+	}
+	#poster .wrapper .main .left p {
+		position: absolute;
+		top: 186px;
+		left: 70px;
+		color: #fff;
+		width: 500px;
+		font-size: 20px;
+		font-weight: 100;
+		line-height: 24px;
+		letter-spacing: 1px;
+	}
+	#poster .wrapper .main .left button {
+		position: absolute;
+		top: 304px;
+		left: 70px;
+		background: white;
+		padding: 7px 30px;
+		border-radius: 7px;
+	}
+	#home .spotlight .under {
+		position: absolute;
+		top: 90%;
+		left: 45%;
+	}
+	#home header .left {
+        display: flex;
+        margin-left: 1%;
+    }
+	#home header {
+        height: 100px;
+        width: 100%;
+        padding: 0 19px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        justify-content: space-between;
+        /* padding: 0 100px; */
+    }
+	#home .spotlight .container h1 {
+        font-size: 68px;
+        color: #fff;
+        font-weight: bold;
+    }
+    #home .spotlight .container h2 {
+        font-size: 22px;
+        color: #fff;
+        padding-bottom: 16px;
+    }
+	#home .spotlight .container p {
+        font-size: 22px;
+        color: #fff;
+        padding: 9px 0;
+    }
+	#home .spotlight .container button {
+        background: #fff;
+        padding: 10px 43px;
+        border-radius: 5px;
+    }
+	#top_brands .wrapper .main .contain ul li {
+        width: 16%;
+        height: 84px;
+        background: #fff;
+        border-radius: 13px;
+    }
+	
+	#top_brands .wrapper .main h1 {
+        font-size: 55px;
+        color: #fff;
+        padding: 50px 0px 0px 29%;
+    }
+	#limlight .wrapper ul li .arrow_down h3 {
+		color: #3C4242;
+		font-weight: 600;
+		padding-top: 10px;
+		line-height: 19.2px;
+		font-size: 15px;
+	}
+	#womens_catogary .wrapper div ul li .exploring {
+		padding-left: 5px;
+		color: #7F7F7F;
+		font-size: 13px;
+	}
+	#limlight .wrapper ul li .exploring {
+		color: #807D7E;
+		font-size: 13px;
+	}
+	#womens_catogary .wrapper div ul li span h3 {
+		color: #191919;
+		font-size: 15px;
+		line-height: 27.93px;
+		font-weight: 500;
+	}
+	#womens_catogary .wrapper .title h2 {
+		font-size: 32px;
+		color: #3C4242;
+		line-height: 33.5px;
+	}
+	#womens_catogary .wrapper .title img {
+		height: 24px;
+		width: 6px;
+		margin: 0 20px 0 0;
+	}
+	#limlight .wrapper .title h2 {
+		font-size: 32px;
+		color: #3C4242;
+		font-weight: 600;
+	}
+	#limlight .wrapper .title img {
+		height: 24px;
+		width: 6px;
+		margin: 0 20px 0 0;
+	}
+	#limlight .wrapper .title {
+		display: flex;
+		padding: 30px 0;
+		align-items: center;
+	}
+	#review .wrapper .title h2 {
+		font-size: 32px;
+		color: #3C4242;
+		font-weight: 600;
+	}
+	#review .wrapper .title img {
+		height: 24px;
+		width: 6px;
+		margin: 0 20px 0 0;
+	}
+	#review .wrapper .title {
+		display: flex;
+		padding: 50px 0px 30px 0px;
+		align-items: center;
+	}
+	#mens_category .wrapper div .title h1 {
+		font-size: 32px;
+		color: #3C4242;
+	}
+	#mens_category .wrapper div .title img {
+		height: 24px;
+		width: 6px;
+		margin: 0 20px 0 0;
+	}
+	#mens_category .wrapper div ul li span h3 {
+		color: #2A2F2F;
+		font-size: 15px;
+		line-height: 27.93px;
+	}
+	#mens_category .wrapper div ul li .explore {
+		color: #7F7F7F;
+		font-size: 13px;
+	}
+	#arrial .wrapper span h1 {
+		font-size: 32px;
+	}
+	#arrial .wrapper span img {
+		height: 24px;
+		width: 6px;
+		margin: 0 20px 0 0;
+		font-weight: bold;
+	}
+    #limlight .wrapper ul li .arrow_down a {
+        color: #3C4242;
+        background: #F6F6F6;
+        padding: 7px;
+        border-radius: 8px;
+        font-size: 14px;
+        height: 28px;
+    } 
+	#top_brands .wrapper .main .sentance {
+        display: flex;
+        padding: 10px 0px 0px 38%;
+    }
+	#poster .wrapper .main .left .one {
+		position: absolute;
+		top: 78px;
+		color: aliceblue;
+		left: 70px;
+		font-size: 30px;
+	}
+	#home header .left li a {
+    color: #807d7e;
+    font-size: 19px;
+}
+}
+@media all and (max-width:980px){
+	#home header .left {
+		display: flex;
+		margin-left: 10%;
+		display: none;
+	}
+	#home header .right {
+		display: flex;
+		display: none;
+	}
+	#home header .icons {
+        position: absolute;
+        top: 31px;
+        left: 35px;
+        display: block;
+    }
+	#discounts .wrapper .discount .right p {
+		margin: 10px 0 40px 20px;
+		color: #fff;
+		font-size: 16px;
+	}
+	#discounts .wrapper .discount .right h6 {
+		margin: 75px 0 0 20px;
+		font-size: 18px;
+		color: #fff;
+		font-weight: bold;
+	}
+	#discounts .wrapper .discount .left p {
+		margin: 10px 0 40px 20px;
+		color: #fff;
+		font-size: 16px;
+	}
+	#discounts .wrapper .discount .left h6 {
+		margin: 75px 0 0 20px;
+		font-size: 18px;
+		color: #fff;
+		font-weight: bold;
+	}
+	    #home header {
+        height: 100px;
+        width: 100%;
+        padding-left: 120px;
+        padding-right: 53px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+		z-index: 1;
+    }
+	#discounts .wrapper .discount .right h1 {
+		margin: 30px 0 0 20px;
+		font-size: 32px;
+		color: #fff;
+	}
+	#discounts .wrapper .discount .left h1 {
+		margin: 30px 0 0 20px;
+		font-size: 34px;
+		color: #fff;
+	}
+	#discounts .wrapper .discount .right a {
+		margin-left: 20px;
+		font-size: 21px;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+	}
+	#discounts .wrapper .discount .left a {
+		margin-left: 20px;
+		font-size: 21px;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+	}
+	#arrial .wrapper .items .six a .right_arrow {
+		width: 100%;
+		margin-top: 59px;
+	}
+	#arrial .wrapper .items .one a .left_arrow {
+		width: 100%;
+		margin-top: 59px;
+	}
+	#poster .wrapper .main .right {
+		width: 40%;
+	}
+	#poster .wrapper .main .left {
+		width: 60%;
+		position: relative;
+	}
+	#poster .wrapper .main .left .one {
+        position: absolute;
+        top: 78px;
+        color: aliceblue;
+        left: 20px;
+        font-size: 30px;
+    }
+	#poster .wrapper .main .left .two {
+        position: absolute;
+        top: 127px;
+        left: 20px;
+        color: #fff;
+        font-size: 30px;
+    }
+	#poster .wrapper .main .left p {
+        position: absolute;
+        top: 192px;
+        left: 20px;
+        color: #fff;
+        width: 500px;
+        font-size: 20px;
+    }
+
+	#poster .wrapper .main .left button {
+		position: absolute;
+		top: 310px;
+		left: 20px;
+		background: white;
+		padding: 7px 30px;
+		border-radius: 7px;
+	}
+	#top_brands .wrapper .main .contain ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 38px;
+        margin-top: 100px;
+    }
+	#top_brands .wrapper .main .contain ul li img {
+        margin: 20px 0px 0px 0px;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 25%;
+        padding-left: 10%;
+    }
+	#top_brands .wrapper .main h1 {
+        font-size: 51px;
+        color: #fff;
+        padding: 50px 0px 0px 29%;
+    }
+
+
+}
+@media all and (max-width:768px){
+	#discounts .wrapper .discount .right {
+		width: 100%;
+		height: 350px;
+		background: url(../images/bg-3.jpg) no-repeat;
+		background-size: 633.59px 400px;
+		border-radius: 10px;
+		margin-top: 17px;
+		
+	}
+	#home .spotlight .container h1 {
+        font-size: 63px;
+        color: #fff;
+        font-weight: bold;
+    }
+	#home .spotlight .container button {
+		background: #fff;
+		padding: 8px 39px;
+		border-radius: 5px;
+	}
+	#womens_catogary .wrapper div ul li span h3 {
+        color: #191919;
+        font-size: 18px;
+        line-height: 27.93px;
+        font-weight: 500;
+    }
+	#womens_catogary .wrapper div ul li .exploring {
+        padding-left: 5px;
+        color: #7F7F7F;
+        font-size: 15px;
+    }
+	#limlight .wrapper ul li .exploring {
+        color: #807D7E;
+        font-size: 15px;
+    }
+	#home .spotlight .container {
+        position: absolute;
+        top: 5%;
+        left: 13%;
+    }	
+	#home .spotlight .container h2 {
+        font-size: 21px;
+        color: #fff;
+        padding-bottom: 6px;
+    }
+	#home .spotlight .container p {
+        font-size: 21px;
+        color: #fff;
+        padding: 8px 0;
+    }
+	
+	#home .spotlight .container {
+        position: absolute;
+        top: 7%;
+        left: 13%;
+    }
+	#home .spotlight {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background: url(../images/shop.jpg) no-repeat;
+        background-position: top;
+        background-size: cover;
+        position: relative;
+    }
+	#limlight .wrapper ul li .arrow_down h3 {
+        color: #3C4242;
+        font-weight: 600;
+        padding-top: 10px;
+        line-height: 19.2px;
+        font-size: 18px;
+    }
+	#mens_category .wrapper div ul li .explore {
+        color: #7F7F7F;
+        font-size: 15px;
+    }
+	#mens_category .wrapper div ul li span h3 {
+        color: #2A2F2F;
+        font-size: 18px;
+        line-height: 27.93px;
+    }
+	#discounts .wrapper .discount .left {
+		width: 100%;
+		height: 350px;
+		margin-right: 1%;
+		background: url(../images/bg-2.jpg) no-repeat;
+		background-size: 633.59px 400px;
+		border-radius: 10px;
+		
+	}
+	#poster .wrapper .main .left .one {
+        position: absolute;
+        top: 78px;
+        color: aliceblue;
+        left: 20px;
+        font-size: 27px;
+    }
+	#poster .wrapper .main .left .two {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+        color: #fff;
+        font-size: 27px;
+    }
+	#poster .wrapper .main .left p {
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        color: #fff;
+        width: 400px;
+        font-size: 17px;
+    }
+	#poster .wrapper .main .left button {
+        position: absolute;
+        top: 298px;
+        left: 20px;
+        background: white;
+        padding: 7px 30px;
+        border-radius: 7px;
+    }
+	#mens_category .wrapper div ul li:nth-child(2) {
+		margin-left: 5%;
+	}
+	#mens_category .wrapper div ul li {
+		width: 47.5%;
+		padding-bottom: 30px;
+	}
+	#limlight .wrapper ul li {
+		width: 47.5%;
+		margin-bottom: 17px;
+	}
+	#limlight .wrapper ul li:nth-child(3) {
+		margin-left: 0%;
+		margin-bottom: 0%;
+	}
+	#limlight .wrapper ul li:last-child {
+		margin-left: 5%;
+		margin-bottom: 0%;
+	}
+	#review .wrapper .main .left {
+        width: 100%;
+        height: 300px;
+        border: 3px solid #BEBCBD;
+        border-radius: 9px;
+    }
+	#review .wrapper .main .center {
+        width: 100%;
+        height: 300px;
+        margin-left: 0%;
+        border: 3px solid #BEBCBD;
+        border-radius: 9px;
+        margin-top: 10px;
+    }
+	#review .wrapper .main .right {
+        width: 102%;
+        height: 300px;
+        margin-left: 0%;
+        border: 3px solid #BEBCBD;
+        border-radius: 9px;
+        margin-top: 17px;
+    }
+	#footer .container .middle .right h1 {
+		color: #fff;
+		margin: 50px 0px;
+		font-size: 30px;
+		text-align: center;
+	}
+	#limlight .wrapper ul li:nth-child(2) {
+		margin-left: 5%;
+	}
+	#mens_category .wrapper div ul li:nth-child(3) {
+		margin-left: 0;
+	}
+	#mens_category .wrapper div ul li:nth-child(4) {
+		margin-left: 5%;
+	}
+	#mens_category .wrapper div ul li:nth-child(6) {
+		margin-left: 5%;
+	}
+	#mens_category .wrapper div ul li:nth-child(7) {
+		margin-left: 0%;
+	}
+	#mens_category .wrapper div ul li:nth-child(8) {
+		margin-left: 5%;
+	}
+	#womens_catogary .wrapper div ul li:nth-child(2) {
+		margin-left: 5%;
+	}
+	#womens_catogary .wrapper div ul li {
+		width: 47.5%;
+		margin-bottom: 20px;
+	}
+	#top_brands .wrapper .main h1 {
+        font-size: 51px;
+        color: #fff;
+        padding: 50px 0px 0px 21%;
+    }
+	#top_brands .wrapper .main .sentance {
+        display: flex;
+        padding: 10px 0px 0px 30%;
+    }
+	#top_brands .wrapper .main .contain ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 2%;
+        margin-top: 49px;
+    }
+	#top_brands .wrapper .main .contain ul li:nth-child(2) {
+		margin-left: 5.25%;
+	}
+	#top_brands .wrapper .main .contain ul li {
+        width: 15%;
+        height: 84px;
+        background: #fff;
+        border-radius: 13px;
+    }
+	#top_brands .wrapper .main .contain ul li:nth-child(3) {
+		margin-left: 5.25%;
+	}
+	#top_brands .wrapper .main .contain ul li:nth-child(4) {
+		margin-left: 5.25%;
+	}
+	#top_brands .wrapper .main .contain ul li:last-child {
+		margin-left: 5.25%;
+	}
+	#womens_catogary .wrapper div ul li:nth-child(3) {
+		margin-left: 0%;
+	}
+	#womens_catogary .wrapper div ul li:nth-child(4) {
+		margin-left: 5%;
+	}
+}
+@media all and (max-width:640px){
+	#home .spotlight .container h2 {
+        font-size: 21px;
+        color: #fff;
+        padding-bottom: 2%;
+    }
+	#home .spotlight .container h1 {
+        font-size: 58px;
+        color: #fff;
+        font-weight: bold;
+    }
+	#arrial .wrapper .items .one {
+		width: 2%;
+		display: none;
+	}
+	#home .spotlight .under {
+        position: absolute;
+        top: 93%;
+        left: 45%;
+    }
+	#home .spotlight .container button {
+		background: #fff;
+		padding: 8px 36px;
+		border-radius: 5px;
+	}
+	#arrial .wrapper .items .six {
+		width: 2%;
+		display: none;
+	}
+	#arrial .wrapper .items .three {
+		width: 49%;
+		margin-left: 2%;
+	}
+	#arrial .wrapper .items .four {
+		margin-left: 0;
+		width: 49%;
+	}
+	#arrial .wrapper .items .two {
+		width: 49%;
+		margin-left: 0;
+	}
+	#arrial .wrapper .items .five {
+		width: 49%;
+		margin-left: 2%;
+		margin-right: 0;
+	}
+	#arrial .wrapper .items .three {
+    width: 49%;
+    margin-left: 2%;
+}
+	#top_brands .wrapper .main .contain ul li img {
+        margin: 20px 0px 0px 0px;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 16%;
+        padding-left: 10%;
+    }
+	#home .spotlight .container p {
+        font-size: 21px;
+        color: #fff;
+        padding: 4% 0;
+    }
+	#poster .wrapper .main .right img {
+		width: 100%;
+		height: 450px;
+		display: none;
+		background-repeat: no-repeat;
+	}
+	#poster .wrapper .main .left {
+        width: 100%;
+        position: relative;
+    }
+
+	#poster .wrapper .main .left .two {
+        position: absolute;
+        top: 114px;
+        left: 64px;
+        color: #fff;
+        font-size: 27px;
+    }
+	#poster .wrapper .main .left .one {
+        position: absolute;
+        top: 78px;
+        color: aliceblue;
+        left: 64px;
+        font-size: 27px;
+    }
+	#poster .wrapper .main .left p {
+        position: absolute;
+        top: 177px;
+        left: 64px;
+        color: #fff;
+        width: 400px;
+        font-size: 17px;
+    }
+	#poster .wrapper .main .left button {
+        position: absolute;
+        top: 269px;
+        left: 64px;
+        background: white;
+        padding: 7px 30px;
+        border-radius: 7px;
+    }
+	#top_brands .wrapper .main .contain ul li {
+        width: 25%;
+        height: 84px;
+        background: #fff;
+        border-radius: 13px;
+        margin-bottom: 10px;
+    }
+	#top_brands .wrapper .main .contain ul li:nth-child(2) {
+        margin-left: 7%;
+    }
+	#top_brands .wrapper .main .contain ul li:nth-child(3) {
+        margin-left: 7%;
+    }
+	#top_brands .wrapper .main .contain ul li:nth-child(4) {
+        margin-left: 15%;
+    }
+	#top_brands .wrapper .main .contain ul li:last-child {
+        margin-left: 10%;
+    }
+	#top_brands .wrapper .main h1 {
+        font-size: 51px;
+        color: #fff;
+        padding: 50px 0px 0px 13%;
+    }
+	#top_brands .wrapper .main .sentance {
+        display: flex;
+        padding: 9px 0px 0px 22%;
+    }
+	#footer .container .middle {
+		display: flex;
+		flex-wrap: wrap;
+		width: 90%;
+		max-width: 1280px;
+		height: 277px;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: space-between;
+	}
+	#footer .container .middle .right h1 {
+        color: #fff;
+        margin: 39px 0px;
+        font-size: 30px;
+        text-align: center;
+		padding-right: 50px;
+    }
+	#footer .container .informations {
+		width: 90%;
+		max-width: 1280px;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		justify-content: space-between;
+		padding-bottom: 25px;
+	}
+
+}
+@media all and (max-width:540px){
+	#home .spotlight {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background: url(../images/shop.jpg) no-repeat;
+        background-position: right  top 0px;
+        background-size: cover;
+        position: relative;
+    }
+	#home .spotlight .container h1 {
+        font-size: 48px;
+        color: #fff;
+        font-weight: bold;
+    }
+	#home .spotlight .container h2 {
+        font-size: 17px;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+	#home .spotlight .container p {
+        font-size: 17px;
+        color: #fff;
+        padding: 10px 0;
+    }
+	#home .spotlight .container {
+        position: absolute;
+        top: 16%;
+        left: 13%;
+    }
+	#home header .icons {
+        position: absolute;
+        top: 30px;
+        left: 27px;
+        display: block;
+    }
+	#footer .container .informations ul li a h1 {
+		font-size: 30px;
+	}
+	#footer .container .informations ul li a {
+		color: #F6F6F6;
+		font-size: 17px;
+	}
+	#discounts .wrapper .discount .left p {
+        margin: 10px 0 40px 20px;
+        color: #fff;
+        font-size: 15px;
+    }
+	#discounts .wrapper .discount .right p {
+        margin: 10px 0 40px 20px;
+        color: #fff;
+        font-size: 15px;
+    }
+	#discounts .wrapper .discount .right h1 {
+        margin: 30px 0 0 20px;
+        font-size: 32px;
+        color: #fff;
+    }
+	#discounts .wrapper .discount .left h1 {
+        margin: 30px 0 0 20px;
+        font-size: 32px;
+        color: #fff;
+    }
+	#discounts .wrapper .discount .left {
+        width: 100%;
+        height: 300px;
+        margin-right: 1%;
+        background: url(../images/bg-2.jpg) no-repeat;
+        background-size: 633.59px 400px;
+        border-radius: 10px;
+    }
+	#discounts .wrapper .discount .right {
+        width: 100%;
+        height: 337px;
+        background: url(../images/bg-3.jpg) no-repeat;
+        background-size: 633.59px 400px;
+        border-radius: 10px;
+        margin-top: 17px;
+    }
+	#home header {
+        height: 100px;
+        width: 100%;
+        padding: 0px 67px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+		z-index: 1;
+    }
+	
+	#home .spotlight .container button {
+        background: #fff;
+        padding: 7px 25px;
+        border-radius: 8px;
+    }
+	#home .spotlight .under a .under_scrol{
+		width: 68%;
+	}
+	#home .spotlight .under {
+		position: absolute;
+		top: 90%;
+		left: 42%;
+	}
+	#home .spotlight .container button a {
+        font-size: 13px;
+    }
+	#poster .wrapper .main .left .one {
+        position: absolute;
+        top: 78px;
+        color: aliceblue;
+        left: 23px;
+        font-size: 27px;
+    }
+	#poster .wrapper .main .left .two {
+        position: absolute;
+        top: 114px;
+        left: 26px;
+        color: #fff;
+        font-size: 27px;
+    }
+	#poster .wrapper .main .left p {
+        position: absolute;
+        top: 177px;
+        left: 25px;
+        color: #fff;
+        width: 400px;
+        font-size: 17px;
+    }
+	#poster .wrapper .main .left button {
+        position: absolute;
+        top: 269px;
+        left: 25px;
+        background: white;
+        padding: 7px 30px;
+        border-radius: 7px;
+    }
+	#top_brands .wrapper .main h1 {
+        font-size: 43px;
+        color: #fff;
+        padding: 50px 0px 0px 13%;
+    }
+	#review .wrapper .dots {
+		margin-left: 45%;
+		margin-top: 10px;
+	}
+	
+}
+@media all and (max-width:480px){
+	#poster .wrapper .main .left p {
+        position: absolute;
+        top: 177px;
+        left: 25px;
+        color: #fff;
+        width: 90%;
+        font-size: 17px;
+    }
+	#home header .icons {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        display: block;
+    }
+	#poster .wrapper .main .left .one {
+        position: absolute;
+        top: 62px;
+        color: aliceblue;
+        left: 23px;
+        font-size: 27px;
+    }
+	#poster .wrapper .main .left .two {
+        position: absolute;
+        top: 128px;
+        left: 26px;
+        color: #fff;
+        font-size: 27px;
+    }
+	#poster .wrapper .main .left button {
+        position: absolute;
+        top: 332px;
+        left: 25px;
+        background: white;
+        padding: 7px 30px;
+        border-radius: 7px;
+    }
+	#arrial .wrapper .items .one {
+		width: 2%;
+		display: none;
+	}
+	#arrial .wrapper .items .six {
+		width: 2%;
+		display: none;
+	}
+	#arrial .wrapper .items .three {
+		width: 49%;
+		margin-left: 2%;
+	}
+	#arrial .wrapper .items .four {
+		margin-left: 0;
+		width: 49%;
+	}
+	#arrial .wrapper .items .two {
+		width: 49%;
+		margin-left: 0;
+	}
+	#arrial .wrapper .items .five {
+		width: 49%;
+		margin-left: 2%;
+		margin-right: 0;
+	}
+	#arrial .wrapper .items .three {
+    width: 49%;
+    margin-left: 2%;
+}
+	#poster .wrapper .main .left img {
+		width: 100%;
+		height: 402px;
+		background-repeat: no-repeat;
+	}
+	#top_brands .wrapper .main {
+		width: 100%;
+		height: 432px;
+		margin: 30px 0px;
+		background: #000;
+		border-radius: 17px;
+	}
+	#top_brands .wrapper .main .contain ul li img {
+        margin: 20px 0px 0px 0px;
+        width: 91%;
+        margin: 0 auto;
+        padding-top: 30%;
+        padding-left: 10%;
+    }
+	#top_brands .wrapper .main .sentance {
+        display: flex;
+        padding: 9px 0px 0px 18%;
+    }
+	#limlight .wrapper .title h2 {
+        font-size: 22px;
+        color: #3C4242;
+        font-weight: 600;
+    }
+	#footer .container .middle .right h1 {
+        color: #fff;
+        margin: 39px 0px;
+        font-size: 26px;
+        text-align: center;
+        padding-right: 50px;
+    }
+	#footer .container .last {
+		width: 100%;
+		max-width: 1280px;
+		font-size: 13px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 15px 0 50px 0;
+		color: #F6F6F6;
+	}
+	#top_brands .wrapper .main h1 {
+        font-size: 37px;
+        color: #fff;
+        padding: 50px 0px 0px 7%;
+    }
+	#top_brands .wrapper .main .sentance p {
+		color: white;
+		font-size: 18px;
+	}
+	#mens_category .wrapper div ul li span h3 {
+        color: #2A2F2F;
+        font-size: 14px;
+        line-height: 27.93px;
+    }
+	#limlight .wrapper ul li .arrow_down h3 {
+        color: #3C4242;
+        font-weight: 600;
+        padding-top: 10px;
+        line-height: 19.2px;
+        font-size: 15px;
+    }
+	#limlight .wrapper ul li .exploring {
+        color: #807D7E;
+        font-size: 13px;
+    }
+	#womens_catogary .wrapper div ul li span h3 {
+        color: #191919;
+        font-size: 15px;
+        line-height: 27.93px;
+        font-weight: 500;
+    }
+	#womens_catogary .wrapper div ul li .exploring {
+        padding-left: 5px;
+        color: #7F7F7F;
+        font-size: 13px;
+    }
+	#mens_category .wrapper div ul li span h3 {
+        color: #2A2F2F;
+        font-size: 15px;
+        line-height: 27.93px;
+    }
+	#mens_category .wrapper div ul li .explore {
+        color: #7F7F7F;
+        font-size: 13px;
+		
+    }
+	 #home .spotlight {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background: url(../images/shop.jpg) no-repeat;
+        background-position: right 62% top 0px;
+        background-size: cover;
+        position: relative;
+    }
+    #home .spotlight .container {
+        position: absolute;
+        top: 15%;
+        left: 15%;
+    }
+	#home header {
+        height: 100px;
+        width: 100%;
+        padding: 0;
+        padding-left: 52px;
+        padding-right: 15px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+		z-index: 1;
+    }
+	#home header .center {
+        display: flex;
+        background: #F6F6F6;
+        width: 159px;
+        height: 44px;
+        padding-left: 25px;
+        border-radius: 5px;
+    }
+	#womens_catogary .wrapper .title h2 {
+        font-size: 22px;
+        color: #3C4242;
+        line-height: 33.5px;
+    }
+	#womens_catogary .wrapper .title img {
+        height: 16px;
+        width: 6px;
+        margin: 0 20px 0 0;
+    }
+	#mens_category .wrapper div .title h1 {
+        font-size: 22px;
+        color: #3C4242;
+    }
+	#mens_category .wrapper div .title img {
+        height: 16px;
+        width: 6px;
+        margin: 0 20px 0 0;
+    }
+	#arrial .wrapper span h1 {
+        font-size: 22px;
+    }
+	#arrial .wrapper span img {
+        height: 16px;
+        width: 6px;
+        margin: 0 20px 0 0;
+        font-weight: bold;
+    }
+	#home .spotlight .container p {
+        font-size: 17px;
+        color: #fff;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 16px;
+    }
+	#review .wrapper .main .right {
+        width: 102%;
+        height: 366px;
+        margin-left: 0%;
+        border: 3px solid #BEBCBD;
+        border-radius: 9px;
+        margin-top: 17px;
+    }
+	#limlight .wrapper ul li .lim_img .icon {
+		width: 30px;
+		height: 20px;
+		background: #fff;
+		border-radius: 50%;
+		padding: 13px;
+		position: absolute;
+		top: 10px;
+		left: 72%;
+	}
+	#home .spotlight .container h1 {
+        font-size: 44px;
+        color: #fff;
+        font-weight: bold;
+    }
+}
+@media all and (max-width:360px){
+
+	#poster .wrapper .main .left .one {
+        position: absolute;
+        top: 62px;
+        color: aliceblue;
+        left: 23px;
+        font-size: 25px;
+    }
+	#poster .wrapper .main .left .two {
+        position: absolute;
+        top: 128px;
+        left: 26px;
+        color: #fff;
+        font-size: 25px;
+    }
+	#womens_catogary .wrapper .title {
+		display: flex;
+		padding: 12px 0px;
+		align-items: center;
+	}
+	#footer .container .middle {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1280px;
+        height: 277px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+	#footer .container .middle .left a .icon-twitter {
+		font-size: 29px;
+		background: #fff;
+		padding: 8px;
+		border-radius: 30%;
+		margin-left: 5px;
+	}
+	#home .spotlight .container {
+        position: absolute;
+        top: 2%;
+        left: 15%;
+    }
+	#footer .container .middle .right {
+		margin-bottom: 130px;
+		width: 100%;
+	}
+	#footer .container .middle .right h1 {
+        color: #fff;
+        margin: 39px 0px;
+        font-size: 26px;
+        text-align: center;
+        padding-right: 46px;
+    }
+	#home header .icons {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        display: block;
+    }
+	#home header .center {
+        display: flex;
+        background: #F6F6F6;
+        width: 136px;
+        height: 44px;
+        padding-left: 22px;
+        border-radius: 5px;
+    }
+	#home .spotlight .container h1 {
+        font-size: 57px;
+        color: #fff;
+        font-weight: bold;
+    }
+	#home .spotlight .container h2 {
+        font-size: 25px;
+        color: #fff;
+        padding-bottom: 1px;
+    }
+	#home .spotlight .container p {
+        font-size: 25px;
+        color: #fff;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+	#home .spotlight .container button a {
+        font-size: 23px;
+    }
+	#home .spotlight .container button {
+        background: #fff;
+        padding: 12px 39px;
+        border-radius: 8px;
+    }
+	#home .spotlight .arrows .white_arrow_left {
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        width: 40px;
+        height: 28px;
+    }
+	#home .spotlight .arrows .white_arrow_right {
+        position: absolute;
+        top: 30%;
+        left: 87%;
+        width: 40px;
+        height: 28px;
+    }
+	#home .spotlight {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background: url(../images/shop.jpg) no-repeat;
+        background-position: right 45% top 0px;
+        background-size: cover;
+        position: relative;
+    }
+	#discounts .wrapper .discount .left h1 {
+        margin: 30px 0 0 20px;
+        font-size: 28px;
+        color: #fff;
+    }
+	#discounts .wrapper .discount .right h1 {
+        margin: 30px 0 0 20px;
+        font-size: 28px;
+        color: #fff;
+    }
+}
+	
+	
